@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xilinx:vendorExtensions xmlns:xilinx="http://www.xilinx.com" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.xilinx.com xilinx.xsd">
+    <xilinx:coreExtensions>
+      <xilinx:supportedFamilies>
+        <xilinx:family xilinx:lifeCycle="Production">kintex7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintex7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">artix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">artix7l</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">aartix7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">zynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">azynq</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">spartan7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">aspartan7</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtexuplus</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">virtexuplusHBM</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintexuplus</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">zynquplus</xilinx:family>
+        <xilinx:family xilinx:lifeCycle="Production">kintexu</xilinx:family>
+      </xilinx:supportedFamilies>
+      <xilinx:taxonomies>
+        <xilinx:taxonomy>/UserIP</xilinx:taxonomy>
+      </xilinx:taxonomies>
+      <xilinx:displayName>EcceleratorsSpiControllerAxi4LiteAmdWrapper_v1_0</xilinx:displayName>
+      <xilinx:definitionSource>package_project</xilinx:definitionSource>
+      <xilinx:coreRevision>7</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2023-12-12T12:33:16Z</xilinx:coreCreationDateTime>
+      <xilinx:tags>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b539efa_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@c42971e_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@d675f4_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@640a8463_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24e54dc4_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53e8de14_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@41a64637_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@37467bf_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@e355388_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1de034f6_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7081ad7a_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4b2b0588_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@933ff99_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@746314d3_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3f9598ee_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6489c15f_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@b6c2685_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@53e1a5fc_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2b96c1f6_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@69c3c4ea_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@55fb0d17_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@76e8e788_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2a55892d_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@24cfe919_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@56cc31c_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@100510ec_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1a2d6090_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ac96145_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7ad845c9_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@593cb2ac_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7c84a992_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@13cb6612_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2318174a_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@f1f0bc1_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@a624f61_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4259ed29_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7b66abcd_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18188d92_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@68d2606e_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@72bf0f1_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@69abba73_ARCHIVE_LOCATION">c:/data/git/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@14c88a30_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4045e424_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@73130bdc_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@35c5c008_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3ff3a26_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6da336f1_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4429057f_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@727f207c_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@783cc354_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@5da24d04_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@18205db9_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7927f859_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@596104bd_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3c33c45a_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@766b8678_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@29138eea_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@297c4ab2_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@187ccc5_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7fdf8ce5_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@23c3dcd8_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@33d243f2_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4fb09897_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@47792574_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@6b2addce_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1d3d37fe_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@130d961c_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@25151fa7_ARCHIVE_LOCATION">/home/vivado/root/home/ubuntu-dev/git/cpu1sc/eccelerators_spi_controller/package</xilinx:tag>
+      </xilinx:tags>
+    </xilinx:coreExtensions>
+    <xilinx:packagingInfo>
+      <xilinx:xilinxVersion>2020.1</xilinx:xilinxVersion>
+      <xilinx:checksum xilinx:scope="busInterfaces" xilinx:value="c873e378"/>
+      <xilinx:checksum xilinx:scope="memoryMaps" xilinx:value="5ccc3619"/>
+      <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="28ab5a65"/>
+      <xilinx:checksum xilinx:scope="ports" xilinx:value="cfa217cf"/>
+      <xilinx:checksum xilinx:scope="parameters" xilinx:value="65f6cd13"/>
+    </xilinx:packagingInfo>
+  </xilinx:vendorExtensions>
+

@@ -1,0 +1,72 @@
+<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://www.xilinx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="vendorExtensions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="coreExtensions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="supportedFamilies">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="family" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="lifeCycle" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="taxonomies">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="taxonomy"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="displayName"/>
+              <xs:element type="xs:string" name="definitionSource"/>
+              <xs:element type="xs:byte" name="coreRevision"/>
+              <xs:element type="xs:dateTime" name="coreCreationDateTime"/>
+              <xs:element name="tags">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="tag" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute type="xs:string" name="name" use="optional"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="packagingInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:float" name="xilinxVersion"/>
+              <xs:element name="checksum" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="scope" use="optional"/>
+                      <xs:attribute type="xs:string" name="value" use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
