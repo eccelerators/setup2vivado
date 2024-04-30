@@ -97,10 +97,25 @@ class SetupToSpiritComponent:
         
         entity_prefix = entity_particles[0].split('(')[0]
         entity_name = entity_prefix.split()[1]
+        
         entity_ports = []
-        entity_ports.append(entity_particles[0].split('(')[1].strip())
+        
+        iports = 1;
+        pieces = entity_particles[0].split('(')
+        if "generic" in pieces[0].strip():
+            for i, p in enumerate(entity_particles):
+                pieces = p.split('(')
+                if i == 0:
+                    continue
+                if "port" in pieces[0].strip():
+                    entity_ports.append(pieces[1].strip())
+                    iports = i + 1;
+                    break;
+        else:
+            entity_ports.append(pieces[1].strip())
+        
         for i, p in enumerate(entity_particles):
-            if i == 0:
+            if i < iports:
                 continue
             if i == len(entity_particles) - 3:
                 entity_ports.append(p[:-1].strip())
